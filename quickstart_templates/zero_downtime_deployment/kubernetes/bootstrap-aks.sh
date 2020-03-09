@@ -40,7 +40,7 @@ function run_util_script() {
 
 #set defaults
 sp_environment=Azure
-artifacts_location="https://raw.githubusercontent.com/Azure/jenkins/master"
+artifacts_location="https://raw.githubusercontent.com/qmugnier/jenkins/master"
 
 while [[ $# > 0 ]]
 do
