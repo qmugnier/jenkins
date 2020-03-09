@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: tomcat-container
-        image: tomcat:${TOMCAT_VERSION}
+        image: bitnami/tomcat:${TOMCAT_VERSION}
         ports:
         - containerPort: 8080
         readinessProbe:
