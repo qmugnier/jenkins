@@ -35,7 +35,7 @@ function run_util_script() {
 
 #set defaults
 config_files=()
-artifacts_location="https://raw.githubusercontent.com/Azure/jenkins/master"
+artifacts_location="https://raw.githubusercontent.com/qmugnier/jenkins/master"
 artifacts_location_sas_token=
 
 while [[ $# > 0 ]]
