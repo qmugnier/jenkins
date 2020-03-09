@@ -59,7 +59,7 @@ bg_job_description="A pipeline that demonstrates the blue/green deployment to AK
 rolling_job_short_name="aks-rolling-update-deployment"
 rolling_job_display_name="AKS Kubernetes Rolling Update Deployment"
 rolling_job_description="A pipeline that demonstrates the rolling update deployment to AKS Kubernetes with the azure-acs Jenkins plugin."
-artifacts_location="https://raw.githubusercontent.com/Azure/jenkins/master"
+artifacts_location="https://raw.githubusercontent.com/qmugnier/jenkins/master"
 
 while [[ $# > 0 ]]
 do
